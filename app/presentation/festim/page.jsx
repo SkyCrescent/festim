@@ -100,6 +100,26 @@ export default function page(){
 
 
 
+
+
+   const [scrollIndex2, setScrollIndex2] = useState(0);
+   const itemWidth2 = 21; // Adjust this value based on your item width and gap
+
+   useEffect(() => {
+      const interval2 = setInterval(() => {
+         setScrollIndex2((prevIndex) => (prevIndex + 1) % item.length);
+      }, 3000); // Change the delay to suit your needs
+      // ca fait bouger les element avec un distance de 21 et une intervalle de 3000 donc 3 secondes
+      //le styles fait bouge les image via animate scrool
+      return () => clearInterval(interval2);
+   }, [item.length]);
+
+
+
+
+
+
+
    useEffect(() => {
 
       const getData = async () => {
@@ -1327,7 +1347,7 @@ SetnumReservation(id)
                   <div className="relative h-[15%] md:h-[10%] lg:h-[15%] w-full overflow-x-hidden  ">
                      <div
                         className="relative w-[90%] md:w-[98%] mx-auto  flex flex-row  gap-4 p-4 mb-3 animate-scroll-step "
-                        style={{transform: `translateX(-${scrollIndex * itemWidth}rem)`}}
+                        style={{transform: `translateX(-${scrollIndex2 * itemWidth2}rem)`}}
                      >
                         {loading2 && (
                            <div className="flex flex-row space-x-4">
