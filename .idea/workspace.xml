@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="085df0ef-0082-4b0c-bec6-b975f9d0b26c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presentation/festim/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/presentation/festim/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721754393459</updated>
       <workItem from="1721754395047" duration="8401000" />
-      <workItem from="1721815823641" duration="1103000" />
+      <workItem from="1721815823641" duration="1564000" />
     </task>
     <servers />
   </component>

@@ -1354,9 +1354,10 @@ SetnumReservation(id)
                               {item.map((item, index) => (
                                  <div key={index}
                                       className="relative w-72 md:w-96  cursor-pointer bg-gray-100 border border-gray-200 hover:bg-gray-100/85 rounded-xl hover:shadow-2xl transition duration-300"
-                                      onClick={() => {
-                                         GoToUpdate(item.id, item.nom)
-                                      }}>
+                                      // onClick={() => {
+                                      //    GoToUpdate(item.id, item.nom)
+                                      // }}
+                                 >
                                     <div className="h-80 w-full flex items-center  justify-center">
                                        <img src={`/${item.photo}`} alt={`Media ${item.id}`}
                                             className="object-center   "
