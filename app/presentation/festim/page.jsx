@@ -462,7 +462,7 @@ SetnumReservation(id)
 
                <br></br>
 
-               <div className="block md:hidden w-[30%] h-[5%] md:h-[99%] mx-32 md:mx-0 -mt-12 lg:-mt-6  ">
+               <div className="block md:hidden w-[30%] h-[5%] md:h-[99%] mx-20 md:mx-0 -mt-6 lg:-mt-6  ">
                   <img
                      className=" absolute h-[3%] lg:h-[12%] "
                      src={GASSACKYS.src}
@@ -472,7 +472,7 @@ SetnumReservation(id)
                </div>
 
 
-               <div className=" mt-52 md:mt-0  relative h-auto">
+               <div className=" mt-64 md:mt-0  relative h-auto">
                   <div
                      className="bg-red-900 bg-no-repeat   bg-cover   bg-[url('../public/111222t.png')] opacity-100 h-8 md:h-12 lg:h-8 w-[70%] md:w-[60%] lg:w-[35%] mx-2 rounded-tr-full justify-center">
 

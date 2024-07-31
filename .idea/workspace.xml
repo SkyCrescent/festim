@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="085df0ef-0082-4b0c-bec6-b975f9d0b26c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presentation/festim/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/presentation/festim/page.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +84,7 @@
       <workItem from="1721815823641" duration="1773000" />
       <workItem from="1721819602733" duration="37000" />
       <workItem from="1721857813046" duration="11042000" />
-      <workItem from="1722378944479" duration="6121000" />
+      <workItem from="1722378944479" duration="6640000" />
     </task>
     <servers />
   </component>
