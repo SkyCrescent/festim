@@ -27,6 +27,7 @@ export default function Home() {
   const [ showInsta ,setShowInsta  ] = useState(false)
   const [ showFb ,setShowFb  ] = useState(false)
   const [ showWhat ,setShowWhat  ] = useState(false)
+
   const [ next ,setnext  ] = useState(false)
   useEffect(() => {
     SetLoading(true)
@@ -55,6 +56,8 @@ export default function Home() {
     // Cleanup function to clear the timeout when the component unmounts
     // return () => clearTimeout(timeoutId);
   }, []);
+
+
 
   return (
 

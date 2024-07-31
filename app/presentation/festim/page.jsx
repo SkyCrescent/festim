@@ -20,6 +20,7 @@ import concept from "@/public/icons/term_127px.png";
 import contact from "@/public/icons/news_127px.png";
 import youtube from "@/public/play_button_127px.png";
 import logo2 from "@/public/AFFICHE FESTTM AFRIQUE 2024copie23.png";
+import GASSACKYS from "@/public/SEM FERREOL GASSACKYS.png"
 import AddReservation from "@/components/AddReservation";
 import discours from '@/public/icons/discourse_127px.png'
 
@@ -376,7 +377,7 @@ SetnumReservation(id)
 
 
                <div
-                  className="relative -top-0 w-[95%] md:w-[90%] lg:w-[60%] h-56 md:h-[65%] lg:h-80 mx-auto md:-mx-1 lg:mx-auto  mt-10 flex justify-between md:justify-between ">
+                  className="relative -top-0 w-[95%] md:w-[90%] lg:w-[90%] h-56 md:h-[65%] lg:h-[50%] mx-auto md:-mx-1 lg:mx-auto  mt-10 flex justify-between md:justify-between ">
 
 
                   <div className="w-[30%] h-[100%] md:h-[99%]  ">
@@ -389,7 +390,7 @@ SetnumReservation(id)
                            alt="Nfc"
                         />
                      </div>
-                     <div className="w-[100%] text-xs md:text-sm h-[50%] md:h-[48%]  lg:h-[20%] md:space-y-1">
+                     <div className="w-[100%] text-xs md:text-sm h-[50%] md:h-[48%] lg:-mx-6  lg:h-[20%] md:space-y-1">
                         <div
                            className="w-[100%] text-center font-bold text-xs md:text-2xl lg:text-lg items center h-[30%] ">
                            Monsieur Serge PEREIRA
@@ -411,7 +412,8 @@ SetnumReservation(id)
                            alt="Nfc"
                         />
                      </div>
-                     <div className="w-[100%] text-xs md:text-sm h-[51%]  md:h-[48%] md:mx-8 lg:mx-0 lg:h-[20%] md:space-y-1">
+                     <div
+                        className="w-[100%] text-xs md:text-sm h-[51%]  md:h-[48%] md:mx-8 lg:mx-0 lg:h-[20%] md:space-y-1">
                         <div
                            className="w-[100%] text-center font-bold text-xs md:text-2xl lg:text-lg items center h-[30%] ">
                            Monsieur Rudy Stephen
@@ -434,24 +436,43 @@ SetnumReservation(id)
                            alt="Nfc"
                         />
                      </div>
-                     <div className="w-[100%] text-xs md:text-sm h-[51%] md:h-[48%] lg:mx-14 lg:h-[20%] md:space-y-1 lg:space-y-8">
+                     <div
+                        className="w-[100%] text-xs md:text-sm h-[51%] md:h-[48%] lg:mx-6 lg:h-[20%] md:space-y-1 lg:space-y-0">
                         <div
                            className="w-[100%] md:w-[136%] lg:w-[100%] text-center font-bold text-xs md:text-2xl lg:text-lg items center h-[30%]  ">
                            Monsieur Claudio Benedict SAMA KENEGUI
                         </div>
-                        <div className="w-[100%] mt-6 md:mt-0 md:mx-8 lg:mx-0 lg:top-0 italic text-center h-[70%] ">
+                        <div className="w-[100%] mt-6 md:mt-0 md:mx-8 lg:mx-0   italic text-center h-[70%] ">
                            President International de <span className="font-bold">FESTIM AFRIQUE</span>
                         </div>
                      </div>
                   </div>
 
+                  <div className="hidden md:block w-[30%] h-[50%] md:h-[99%] -mx-12 md:mx-0 -mt-2 lg:-mt-6  ">
+                     <img
+                        className=" absolute h-[60%] lg:h-[122%] "
+                        src={GASSACKYS.src}
+
+                        alt="Nfc"
+                     />
+                  </div>
 
                </div>
 
 
                <br></br>
 
-               <div className="relative h-auto">
+               <div className="block md:hidden w-[30%] h-[5%] md:h-[99%] mx-32 md:mx-0 -mt-12 lg:-mt-6  ">
+                  <img
+                     className=" absolute h-[3%] lg:h-[12%] "
+                     src={GASSACKYS.src}
+
+                     alt="Nfc"
+                  />
+               </div>
+
+
+               <div className=" mt-52 md:mt-0  relative h-auto">
                   <div
                      className="bg-red-900 bg-no-repeat   bg-cover   bg-[url('../public/111222t.png')] opacity-100 h-8 md:h-12 lg:h-8 w-[70%] md:w-[60%] lg:w-[35%] mx-2 rounded-tr-full justify-center">
 
@@ -1112,7 +1133,8 @@ SetnumReservation(id)
                      className="relative w-[100%]  text-sm mt-3 md:mt-12 lg:mt-24  leading-tight  text-justify font-[Poppins]  mx-auto h-auto md:flex md:justify-between md:items-center  md:flex-row">
                      <div className=" relative w-[90%] md:w-[50%]  h-[20%] ">
                         <div className="relative h-[50%]  w-[100%] md:w-[96%] lg:w-[100%] ">
-                        <span className="relative h-[100%] w-[70%] md:w-[10%] lg:w-[70%] text-xl md:text-2xl lg:text-4xl  font-[Times] "> Hôtel
+                        <span
+                           className="relative h-[100%] w-[70%] md:w-[10%] lg:w-[70%] text-xl md:text-2xl lg:text-4xl  font-[Times] "> Hôtel
                         Olympic Palace à Brazzaville et le Musé National de la RDC à Kinshasa.</span>
                            {/*      */}
                            {/*      <span className="relative h-[100%] w-[95%] "> ’inscription d'un événement qui vise à promouvoir le tourisme culturel, le monde des Affaires*/}
@@ -1319,6 +1341,7 @@ SetnumReservation(id)
 
 
                </div>
+
                <br></br>
                <div className="relative  h-auto  ">
                   <div className="relative h-[70%] mx-4 leading-4   ">
@@ -1354,9 +1377,9 @@ SetnumReservation(id)
                               {item.map((item, index) => (
                                  <div key={index}
                                       className="relative w-72 md:w-96  cursor-pointer bg-gray-100 border border-gray-200 hover:bg-gray-100/85 rounded-xl hover:shadow-2xl transition duration-300"
-                                      // onClick={() => {
-                                      //    GoToUpdate(item.id, item.nom)
-                                      // }}
+                                    // onClick={() => {
+                                    //    GoToUpdate(item.id, item.nom)
+                                    // }}
                                  >
                                     <div className="h-80 w-full flex items-center  justify-center">
                                        <img src={`/${item.photo}`} alt={`Media ${item.id}`}
